@@ -2,30 +2,81 @@
 <?xml-stylesheet type="text/css" href="resources/css/paper.css"?>
 <article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0">
 	<info>
-		<title><?oxy-placeholder content="Your paper title"?></title>
+		<title>Dispelling Myths About Markup Formats: When What Why Where</title>
 		<author>
-			<personname><?oxy-placeholder content="Your name"?></personname>
-			<email><?oxy-placeholder content="Your email address"?></email>
-			<uri><?oxy-placeholder content="Your website"?></uri>
+			<personname>Liam Quin</personname>
+			<email>liam@fromoldbooks.org</email>
+			<uri>https://www.delightfulcomputing.com/</uri>
 			<personblurb>
 				<para><?oxy-placeholder content="Details about you"?></para>
 			</personblurb>
 			<affiliation>
-				<jobtitle><?oxy-placeholder content="Your job title"?></jobtitle>
-				<orgname><?oxy-placeholder content="Organization name"?></orgname>
+				<jobtitle>Owner and coffee-slave</jobtitle>
+				<orgname>Delightful Computing</orgname>
 			</affiliation>
 		</author>
 		<keywordset>
-			<keyword><?oxy-placeholder content="keyword relevant to your paper"?></keyword>
-			<keyword><?oxy-placeholder content="keyword"?></keyword>
+			<keyword>declarative markup</keyword>
+			<keyword>markup</keyword>
+			<keyword>vocabulary</keyword>
+			<keyword>markdown</keyword>
+			<keyword>XML</keyword>
 		</keywordset>
 		<abstract>
-			<para><?oxy-placeholder content="First paragraph of your abstract."?></para>
-			<para><?oxy-placeholder content="Another paragraph …"?></para>
+			<para>Misunderstandings about the goals and strengths of different document and data interchange
+				formats can lead to suboptimal decisions. Such misunderstandings appear widespread.
+				The purpose of this paper is to suggest areas in which each format has strengths,
+				and to provide clear explanations that people can use to place XML in the context of
+				other current markup systems.</para>
+			<para>Common misconceptions about XML include statements such as “XML was designed for Web
+				services and therefore unsuitable for documents;” “XML was designed to replace HTML
+				and has failed;” “XML cannot transmit semantics of any kind;” “XML is dead.” In
+				fact, XML is alive and well. There are misconceptions about other formats, too, of
+				course.</para>
 		</abstract>
 	</info>
 
 	<para><?oxy-placeholder content="Leading text before the first section can be here…"?></para>
+	<section>
+		<title>Introduction</title>
+		<para>Declarative markup languages have been around for many years. There were declarative
+			systems built from Unix <emphasis>troff</emphasis> macro libraries in the 1970s and
+			1980s, and of course SGML, Scribe, LaTeX and many others attempt to be more or less
+			declarative and more or less general ways to represent and process documents with
+			computers.</para>
+		<para>The choice of which markup system to use should be based on clear well-understood
+			criteria. These might include:<itemizedlist>
+				<listitem>
+					<para>Which notation has a closest fit to the document or documents. For
+						example, a document with a lot of mixed markup and running text will be more
+						difficult to process in some systems than others, as will a multilingual
+						document;</para>
+				</listitem>
+				<listitem>
+					<para>Which notation has associated tools that perform the processing the
+						project needs;</para>
+				</listitem>
+				<listitem>
+					<para>Which system the developers like the most or hate the most;</para>
+				</listitem>
+				<listitem>
+					<para>Which system will be most likely to have active support for the entire
+						duration of the project;</para>
+				</listitem>
+				<listitem>
+					<para>What will be the costs and what will be the gains of each format;</para>
+				</listitem>
+				<listitem>
+					<para>What are all the other similar projects using.</para>
+				</listitem>
+			</itemizedlist></para>
+		<para>Very often, the emotional aspects of the decision outweigh the technical aspects. This
+			paper primarily explores the technical aspects, but also provides the reader with some
+			ammunition to argue in the emotional arena.</para>
+	</section>
+	<section>
+		<title> Dispelling Myths About Markup Formats</title>
+	</section>
 	<section>
 		<title>Introduction</title>
 		<para><?oxy-placeholder content="Introductory section goes here…"?></para>
